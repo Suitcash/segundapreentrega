@@ -28,14 +28,12 @@ background-color: #00F0F5;
     
 }    
 
-/*
+
 .fotos{
     width: 20%;
     height: 20%;
 
 }
-*/
-
 .caja{
     display: flex;
     padding: 5px;
