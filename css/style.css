@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.titulaje{
+
+    margin-bottom: 0;
+
 }
 
 .navegador{
+    
     width: 100%;
     height: 70px;
 background-color: #00F0F5;
-
 
 }
 
@@ -16,10 +24,12 @@ background-color: #00F0F5;
     list-style: none;
     display: flex;
     justify-content: end;
+    
 }
 
 
 .navegador ul li a{
+    margin: 2px;
     display: block;
     color: white;
     list-style: none;
@@ -28,69 +38,158 @@ background-color: #00F0F5;
     
 }    
 
+.grafica{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    display: flex;
+    
+
+}
+
+.carrusel{
+    display: flex;
+
+}
 
 .fotos{
     width: 20%;
     height: 20%;
 
 }
-.caja{
+
+
+.cajagrande {
     display: flex;
-    padding: 5px;
+    width: 100%;
     margin: 10px;
-    width: 15%;
-    height: 15%;
-    background-color: #0BA3DE;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
+
+.caja col-12 col-sm-6 col-lg-4{
+    background-color: #0BA3DE;
+    padding: 6px;
+
+}
+
+
+.caja{
+    
+    background-color: #0BA3DE;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 5px;
+    border: 0px;
+    
+    
+}
+
+.enlacedelboton
+
+/* Inicio de Servicios */
 
 .servi{
     padding: 5px;
     margin: 20px;
-    width: 80%;
-    
-    
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .cajita1{
     padding: 5px;
     margin: 20px;
     background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+}
+.cajita1 img{
+
+    margin: 8px;
+    
 }
 
 .cajita2{
+
     padding: 5px;
     margin: 20px;
     background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
+}
+
+.cajita2 img{
+
+    margin: 8px;
+
 }
 
 .cajita3{
+
     padding: 5px;
     margin: 20px;
     background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
+}
+
+.cajita3 img{
+
+    margin: 8px;
+
 }
 
 .cajita4{
+
     padding: 5px;
     margin: 20px;
     background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
+}
+
+.cajita4 img{
+
+    margin: 8px;
+
 }
 
 .cajita5{
+
     padding: 5px;
     margin: 20px;
     background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
 }
+
+.cajita5 img{
+    margin: 8px;
+}
+
 /* FIN SERVICIOS*/
 
 /* COMIENZA PRODUCTOS */
 
+.fondoproductos{
+    background-color: #9cddf77a;
+}
+
 .productos{
     list-style: none;
-   
+  
     display: flex;
+}
+
+.scrollhorizontal {
+	
+	width: 100%;
+	overflow: auto;
+	border: 1px solid #1E6263;
+	padding: 8px;
 }
 
 .producto1{
@@ -141,8 +240,57 @@ background-color: #00F0F5;
     background-color: #0BA3DE;
 }
 
+.producto7{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto8{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+
 /*END OF PRODUCTS*/
 
+
+
+/*STARTS CONTACT US*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: end;
+    
+}
+
+
+/*STARTS CONTACT US*/
+
+
+/*STARTS ABOUT US*/
+
+.father{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+
+}
+
+.father img{
+width: 50%;
+}
+
+
+/*
 .father {
     width: 300px;
     text-align: start;
@@ -159,3 +307,6 @@ background-color: #00F0F5;
 
     text-align: end;
 }
+*/
+
+/*END OF ABOUT US*/
