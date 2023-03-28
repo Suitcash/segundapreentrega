@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.titulaje{
+
+    margin-bottom: 0;
+
+}
+
+.navegador{
+    
+    width: 100%;
+    height: 70px;
+background-color: #00F0F5;
+
+}
+
+.navegador ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+.navegador ul li a{
+    margin: 2px;
+    display: block;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    
+}    
+
+.grafica{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    display: flex;
+    
+
+}
+
+.carrusel{
+    display: flex;
+
+}
+
+.fotos{
+    width: 20%;
+    height: 20%;
+
+}
+
+
+.cajagrande {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    
+}
+
+.caja col-12 col-sm-6 col-lg-4{
+    background-color: #0BA3DE;
+    padding: 6px;
+
+}
+
+
+.caja{
+    
+    background-color: #0BA3DE;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 5px;
+    border: 0px;
+    
+    
+}
+
+.enlacedelboton
+
+/* Inicio de Servicios */
+
+.servi{
+    padding: 5px;
+    margin: 20px;
+}
+
+.cajita1{
+    padding: 5px;
+    margin: 20px;
+    background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+}
+.cajita1 img{
+
+    margin: 8px;
+    
+}
+
+.cajita2{
+
+    padding: 5px;
+    margin: 20px;
+    background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
+}
+
+.cajita2 img{
+
+    margin: 8px;
+
+}
+
+.cajita3{
+
+    padding: 5px;
+    margin: 20px;
+    background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
+}
+
+.cajita3 img{
+
+    margin: 8px;
+
+}
+
+.cajita4{
+
+    padding: 5px;
+    margin: 20px;
+    background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
+}
+
+.cajita4 img{
+
+    margin: 8px;
+
+}
+
+.cajita5{
+
+    padding: 5px;
+    margin: 20px;
+    background-color: #0BA3DE;
+    list-style: none;
+    display: flex;
+
+}
+
+.cajita5 img{
+    margin: 8px;
+}
+
+/* FIN SERVICIOS*/
+
+/* COMIENZA PRODUCTOS */
+
+.fondoproductos{
+    background-color: #9cddf77a;
+}
+
+.productos{
+    list-style: none;
+  
+    display: flex;
+}
+
+.scrollhorizontal {
+	
+	width: 100%;
+	overflow: auto;
+	border: 1px solid #1E6263;
+	padding: 8px;
+}
+
+.producto1{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto2{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto3{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto4{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto5{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto6{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto7{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+.producto8{
+    padding: 30px;
+    margin: 15px;
+    width: 15%;
+    height: 15%;
+    background-color: #0BA3DE;
+}
+
+
+/*END OF PRODUCTS*/
+
+
+
+/*STARTS CONTACT US*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: end;
+    
+}
+
+
+/*STARTS CONTACT US*/
+
+
+/*STARTS ABOUT US*/
+
+.father{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+
+}
+
+.father img{
+width: 50%;
+}
+
+
+/*
+.father {
+    width: 300px;
+    text-align: start;
+
+}
+
+.uncle .title{
+
+    text-align: end;
+
+}
+
+.uncle .subtitle{
+
+    text-align: end;
+}
+*/
+
+/*END OF ABOUT US*/
